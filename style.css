@@ -1,0 +1,102 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main_content>button{
+    background-color: rgb(30, 199, 174);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem 1rem ;
+    border: 2px solid rgb(30, 199, 174);
+}
+.main_content>button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.cards{
+    display: flex;
+    gap:1rem; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    padding: 0.5rem;
+    display: flex;
+    /* border: 1px solid black; */
+    padding:0.1rem 1rem ;
+    border-radius: 0.5rem;
+    /* gap:0.5rem; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.card:hover{
+    cursor: pointer;
+    background-color: pink;
+}
+.text1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: brown;
+}
+.emoji{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    position: absolute;
+    top: 25%;
+
+    left: 35%;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 0.6rem;
+    padding: 0.5rem 1rem;
+    color: rgb(234, 49, 218);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    transition: all 0.8s linear;
+    
+}
+
+.content>p{
+    font-weight: bold;
+}
