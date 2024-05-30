@@ -39,6 +39,36 @@ body{
     cursor: pointer;
     background-color: white;
 }
+.heading{
+    color: rgb(66, 225, 191); 
+    font-weight: bold; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    /* background-color: skyblue; */
+    width: 20rem;
+    text-align: center;
+    /* transition: all 5s linear ; */
+    animation: heading 4s linear infinite;
+}
+@keyframes heading {
+    0%{
+        /* left:0px; */
+        /* text-align: left; */
+        transform: translateX(-10rem);
+    }
+    50%{
+        /* transform: translateX(20rem); */
+        transform: rotate(10deg);
+    }
+    100%{
+        right: 0px;
+        transform: translateX(10rem);
+        /* transform: rotate(-10deg); */
+        /* text-align: right; */
+    }
+    
+}
 .cards{
     display: flex;
     gap:1rem; 
