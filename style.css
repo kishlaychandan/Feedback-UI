@@ -1,19 +1,24 @@
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(background.jpg);
+    /* background: url(background.jpg); */
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 8rem;
     gap: 1rem;
-    position: absolute;
-    top: 20%;
-    left: 35%;
+    /* position: absolute; */
+    /* top: 20%;
+    left: 35%; */
 }
 .main_content{
     display: flex;
@@ -40,7 +45,7 @@ body{
     background-color: white;
 }
 .heading{
-    color: rgb(66, 225, 191); 
+    color: rgb(153, 66, 225); 
     font-weight: bold; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0.5rem;
@@ -106,10 +111,11 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    position: absolute;
-    top: 25%;
+    margin-top: 8rem;
+    /* position: absolute; */
+    /* top: 25%; */
 
-    left: 35%;
+    /* left: 35%; */
 
 }
 .content{
